@@ -34,9 +34,9 @@ Let's apply differencing to something real --- global surface temperature an
 
 
 
-- **Original Series** --- The temperature anomalies show a clear trend.
-- **First Difference** --- The upward trend is reduced, but patterns remain.
-- **Second Difference** --- The series fluctuates around a steady mean, meaning it's now stationary.
+- Original Series --- The temperature anomalies show a clear trend.
+- First Difference --- The upward trend is reduced, but patterns remain.
+- Second Difference --- The series fluctuates around a steady mean, meaning it's now stationary.
 
 ### Wrapping Up
 Differencing is one of the easiest ways to make a time series stationary. It removes trends, stabilizes the mean, and lets statistical models do their job. After differencing, always check the data to make sure you haven't gone too far --- if the series looks like random noise, you may have overdone it. In the next chapter, we'll look at how to determine the right number of differences using statistical tests and visual inspection.
