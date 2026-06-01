@@ -11,14 +11,7 @@ One of the simplest ways to fix this is differencing. Instead of working with th
 
 To illustrate, consider a time series with a clear upward trend. It keeps climbing, making it obvious that some kind of transformation is needed. The first step is first-order differencing, which subtracts each value from the one before it. This flattens a linear trend into a more stable series. If the trend is more complex --- curved instead of straight --- a single difference isn't enough. A second difference, which applies the same operation again to the first differenced series, may be needed.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
